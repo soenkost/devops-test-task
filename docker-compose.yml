@@ -1,0 +1,4 @@
+environment:
+  APP_REDIS_URI: redis://docker.local:6380
+  APP_MONGO_URI: mongodb://docker.local:27117/app
+
