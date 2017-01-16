@@ -27,3 +27,4 @@ CONTAINER ID        IMAGE                    COMMAND                CREATED     
 7f7d7e85ebf3        influxdb                 "/entrypoint.sh infl   About an hour ago    Up About an hour    0.0.0.0:8086->8086/tcp     evil_ardinghelli
 ca0c96eac860        mongo                    "/entrypoint.sh mong   2 hours ago          Up 2 hours          0.0.0.0:27117->27017/tcp   boring_elion
 2840523cbeff        redis                    "docker-entrypoint.s   2 hours ago          Up 2 hours          0.0.0.0:6380->6379/tcp     stoic_stallman
+
