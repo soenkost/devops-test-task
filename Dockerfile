@@ -1,5 +1,8 @@
 FROM node:argon
 
+ENV APP_REDIS_URI redis://docker.local:6380
+ENV APP_MONGO_URI mongodb://docker.local:27117/app
+
 # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
